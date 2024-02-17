@@ -1,0 +1,219 @@
+body{
+    background-color: whitesmoke;
+    height: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(223, 34, 72);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+#logo{
+    height: 130px;
+    width: 300px;
+    margin-left: 75px;
+}
+#search{
+    height: 70px;
+    width: 900px;
+    margin-left: 400px;
+    font-size: x-large;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+#button{
+    font-size: x-large;
+    height: 73px;
+    width: 200px;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-right: 250px;
+}
+#button:hover{
+    background-color: rgb(56, 54, 54);
+    cursor: pointer;
+}
+#na{
+    height: 150px;
+    width: 250px;
+  
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+#nai{
+    height: 60px;
+    width: 70px;
+    margin-right: 10px;
+}
+#na2{
+    height: 150px;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+#na2:hover{
+    text-decoration: underline;
+    background-color: crimson;
+    cursor: pointer;
+}
+#na:hover{
+    text-decoration: underline;
+    background-color: crimson;
+    cursor: pointer;
+}
+#nai2{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+#dis{
+    height: auto;
+    
+    width: auto;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#didi:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#pin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    margin-left: 250px;
+    border-color: rgba(128, 128, 128, 0.336);
+    border-width: 7px;
+    border-style:groove;
+}
+#pi{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+}
+span{
+    font-size: larger;
+    font-weight: 800;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+}
+#pid{
+    height: 60px;
+    width: 400px;
+   margin-top: 20px;
+    font-size: x-large;
+    border-radius: 7px;
+
+}
+#ok{
+    height: 150px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button2{
+    font-size: x-large;
+    height: 73px;
+    width: 408px;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+    
+#button2:hover{
+    background-color: rgb(56, 54, 54);
+    cursor: pointer;
+}
+#sec{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row;
+    gap: 100px;
+    background-size: contain ;
+}
+#card{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+}
+#thir{
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+#card:hover{
+    scale: 1.2;
+    border: 5px solid black;
+    cursor: pointer;
+    
+}
+h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+#fo{
+    background-color: crimson;
+    height: 75px;
+    width: 100%;
+}
+footer{
+    background: rgb(223, 34, 72);
+    height: 200px;
+    display: flex;
+    align-items: left;
+    justify-content: left ;
+  padding-top: 50px;
+    flex-direction: column;
+    color: white;
+}
+#imc{
+    height: 350px;
+    width: 300px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
